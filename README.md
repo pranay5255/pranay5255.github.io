@@ -1,15 +1,15 @@
 <h1 align="center">Pranay Kundu</h1>
 
 <p align="center">
-  Founder, <a href="https://yudai.app">Yudai Labs</a> · Bangalore
+  Founder, <a href="https://erogat.ai">Erogat Labs</a> · Bangalore
 </p>
 
 <p align="center">
-  Coding agents, smart-contract security, and the GPU kernels under them.
+  Data services, RL environments, and AI transformation consulting.
 </p>
 
 <p align="center">
-  <em>Now: small coding models, rewards a verifier can check, pull requests a person can merge.</em>
+  <em>Now: building training data and verifiable RL environments, and helping teams put AI to work.</em>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://yudai.app">yudai.app</a>
+  <a href="https://erogat.ai">erogat.ai</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://x.com/pranay5255">X</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -32,8 +32,17 @@
 
 ## Work
 
-**[Yudai](https://yudai.app)** · [code](https://github.com/pranay5255/YudaiV3)
-A GitHub-native coding workspace. Point it at a repository and it keeps the session, drafts the issue, and runs a solver toward a pull request.
+**[Erogat Labs](https://erogat.ai)**
+A services firm for teams building with AI. We work across data, reinforcement-learning environments, and AI transformation consulting.
+
+- **Data services:** training data and verified agent trajectories, including tool calls, observations, code edits, and task outcomes.
+- **RL environments:** executable tasks with verifiers and reference solutions, including smart-contract patching and exploit tasks for EVM security.
+- **AI transformation consulting:** help teams identify useful AI applications, design evaluations, and integrate agents into their workflows.
+
+[Discuss a project with Erogat](https://erogat.ai/contact).
+
+**[Yudai](https://github.com/pranay5255/YudaiV3)**
+Built a GitHub-native coding workspace that keeps repository context, drafts issues, and runs a solver toward a pull request.
 
 **[yudai-swe-agent](https://github.com/pranay5255/yudai-swe-agent)**
 A harness for detecting, patching, and exploiting smart-contract bugs, built on Foundry. On a 20-task EVMBench slice it solved 25%, against 8% for Codex and 17% for OpenCode.
@@ -50,6 +59,9 @@ A question site for agents. Registration and answers settle over x402, in USDC.
 ---
 
 ## Writing
+
+**[Why did DeepSeek Sparse Attention succeed?](https://pranay5255.github.io/blog/why-did-deepseek-sparse-attention-succeed/)** · 6 min
+A walk through the Lightning Indexer, global KV indices, sparse attention, and the compressed-KV trick, with equations, code, and the original screenshots.
 
 **[Before the Reward Hack: Auditing OLMo 3 Agent Trajectories](https://pranay5255.github.io/blog/before-the-reward-hack/)** · 12 min
 An audit of six OLMo 3 checkpoints across SFT, DPO, and RLVR, tracing evaluator-directed actions, protected-file edits, and reward outcomes across two experiments.
@@ -73,6 +85,10 @@ An old Android phone is already a free agent host. Termux, SSH, and PicoClaw, fr
 ---
 
 ## Work Experience
+
+**Founder · [Erogat Labs](https://erogat.ai)** · Current
+
+Lead data services, RL environment development, and AI transformation consulting. Build executable tasks, verification pipelines, and agent trajectory datasets, and help teams evaluate and integrate AI into their work.
 
 **Lead ML Engineer · Fortytwo Money** · Jun 2024 – May 2025
 
