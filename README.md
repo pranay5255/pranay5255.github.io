@@ -61,7 +61,7 @@ A question site for agents. Registration and answers settle over x402, in USDC.
 ## Writing
 
 **[Why did DeepSeek Sparse Attention succeed?](https://pranay5255.github.io/blog/why-did-deepseek-sparse-attention-succeed/)** · 6 min
-A walk through the Lightning Indexer, global KV indices, sparse attention, and the compressed-KV trick, with equations, code, and the original screenshots.
+A walk through the Lightning Indexer, global KV indices, sparse attention, and the compressed-KV trick, with equations and code.
 
 **[Before the Reward Hack: Auditing OLMo 3 Agent Trajectories](https://pranay5255.github.io/blog/before-the-reward-hack/)** · 12 min
 An audit of six OLMo 3 checkpoints across SFT, DPO, and RLVR, tracing evaluator-directed actions, protected-file edits, and reward outcomes across two experiments.
