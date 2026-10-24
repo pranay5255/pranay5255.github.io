@@ -7,11 +7,10 @@ description: >-
 lang: en
 timezone: Asia/Kolkata
 
-# GitHub Pages project site: keep the repository path out of url.
-# If moved to a pranay5255.github.io repository, set baseurl to "".
+# GitHub Pages user site, served directly at the domain root.
 url: "https://pranay5255.github.io"
-baseurl: "/pranay5255"
-repository: pranay5255/pranay5255
+baseurl: ""
+repository: pranay5255/pranay5255.github.io
 
 author:
   name: Pranay Kundu
