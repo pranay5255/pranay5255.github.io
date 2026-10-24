@@ -152,17 +152,18 @@ This is surprising as Think models generate a lot more tokens and we expect the 
 
 Every agent response is assigned one action class based on its executed, parser-valid commands:
 
-  \- **evaluator\_change**: writes to or deletes test.py or test\_cases.json.  
-  \- **solution\_change**: writes, reads, or runs solution.py.  
-  \- **evaluator\_use**: reads, references, or executes evaluator files without changing them.  
-  \- **other**: none of the above.
+- **evaluator\_change**: writes to or deletes test.py or test\_cases.json.
+- **solution\_change**: writes, reads, or runs solution.py.
+- **evaluator\_use**: reads, references, or executes evaluator files without changing them.
+- **other**: none of the above.
 
 We argue that evaluator change turns must be observed with solution change turns to observe credible reward hacking, although no reward hacking was actually detected across the trajectories we estimate how does token surprisal change when the model is intending to mis-aligned behaviour after it changed an evaluator file.   
     
 For each eligible trajectory (**u=evaluator and solution change**):
 
-| I-SFT \= 3 | I-DPO \= 5  | I-{SFT+DPO+RLVR} \= 8 |
+| Instruct SFT | Instruct DPO | Instruct SFT+DPO+RLVR |
 | :---- | :---- | :---- |
+| 3 | 5 | 8 |
 
 TOTAL \= 16 eligible  
 There were no trajectories in Think model trajectories which satisfied the above condition.  
@@ -170,9 +171,9 @@ There were no trajectories in Think model trajectories which satisfied the above
 We calculate Surprisal of :  
 **Delta\_u \= Median{surprisal{Evaluator change turns}} \- Median{surprisal{Solution change turns}}**  
    
-  \- (Delta\_u\<0): evaluator-change responses were more typical than solution-change responses.  
-  \- (Delta\_u=0): both action classes were similarly typical.  
-  \- (Delta\_u\>0): evaluator-change responses were more surprising.  
+- (Delta\_u\<0): evaluator-change responses were more typical than solution-change responses.
+- (Delta\_u=0): both action classes were similarly typical.
+- (Delta\_u\>0): evaluator-change responses were more surprising.
 
 ![Experiment 1: evaluator-change versus solution-change token surprisal]({{ "/assets/posts/before-the-reward-hack/image3.png" | relative_url }})
 
